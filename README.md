@@ -5,7 +5,7 @@ This project aims to visualize, map, and analyze crime trends in Tunisia based o
 
 # Data
 
-The data for this project consists of news articles automatically scraped from about popular Tunisian news websites and portals from the past few years. A sample of around 3000 such articles scraped from the daily newspapers "Assarih" and "Essada" are already available in the data folder.
+The data for this project consists of news articles automatically scraped from about popular Tunisian news websites and portals from the past few years. A sample of around 3000 such articles scraped from 2 daily newspapers "Assarih" (http://assarih.com/) and "Essada" (https://essada.net/) are available in the data folder.
 
 
 # Methodology
