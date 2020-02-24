@@ -1,13 +1,11 @@
 # Introduction
 
-This project aims to visualize, map, and analyze crime trends in Tunisia based only on text scraped from online news media articles. 
-
-Indeed, identifying, understanding and dealing with crime and social violence are important to public officials, policy makers, urban planners, civil society, researchers, etc.  On the other hand, online news media stories are a rich source of information about crime that can be readily exploited for this purpose.
+This project aims to visualize, map, and analyze crime trends in Tunisia based only on text scraped from online news media articles. Identifying, understanding and dealing with crime and social violence are important to public officials, policy makers, urban planners, civil society, researchers, etc.  On the other hand, online news media stories are a rich source of information about crime that can be readily exploited for this purpose.
 
 
 # Data
 
-The data for this project consists of news articles automatically scraped from about popular Tunisian news websites and portals from the past few years. A sample of over 1000 such articles scraped from the daily newspaper "Assarih" in already available in the data folder.
+The data for this project consists of news articles automatically scraped from about popular Tunisian news websites and portals from the past few years. A sample of around 3000 such articles scraped from the society pages of 2 popular daily newspapers, "Assarih" (http://assarih.com/) and "Essada" (https://essada.net/), are available in the data folder.
 
 
 # Methodology
