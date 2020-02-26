@@ -28,7 +28,7 @@ less advanced NLP resources and tools for the Arabic than English.
 
 4. **Information extraction**: extract key facts about the crime, namely the location of the crime (possibly at different granularities such as street, neighborhood, city), and the weapon of the crime if applicable.
 
-5. **Information visualization**: build interactive dashboard-like tool that allows the user to browse and visualize information in various ways ...
+5. **Information visualization**: build interactive dashboard-like tool that allows the user to browse and visualize crime information in various ways ...
 
 
 # Bibliography
