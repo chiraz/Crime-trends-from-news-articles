@@ -1,7 +1,6 @@
 # Introduction
 
-This project aims to visualize, map, and analyze crime trends in Tunisia based only on text scraped from online news media articles. Identifying, understanding and dealing with crime and social violence are important to public officials, policy makers, urban planners, civil society, researchers, etc.  On the other hand, online news media stories are a rich source of information about crime that can be readily exploited for this purpose.
-
+This project aims to visualize, map, and analyze crime trends in Tunisia based **only** on text data scraped from online news media articles. Having timely and accurate information about crime incidence are important to the average citizen who wants to visit or move to a new city or town; as well as to public officials, policy makers, urban planners, civil society, researchers, etc. Such information can be found on government and independent aggregation websites such as macrotrends.net, but exists only in coarse-grain form (annual at the country level). On the other hand, online news media stories are a rich source of such information, albeit hidden in unstructured text form. We will use tools of natural language processing and machine learning to extract this information, and make it available to the public via an interactive dashboard-like tool. The user will be able to browse and visualize this information by crime type, geographic location, and time frame.
 
 # Data
 
