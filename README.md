@@ -14,8 +14,16 @@ identifying crime hot spots at the city and national levels), and temporal trend
 patterns and exceptional spikes).Extracting such patterns from raw text data will require various natural text processing and machine 
 learning tasks, mainly information extraction, aggregation, clustering, and time series analysis.
 
-It is worth mentioning that working with Arabic language text adds an extra level of difficulty to this project because there are far 
+It is worth mentioning that working with Arabic language ,  adds an extra level of difficulty to this project because there are far 
 less advanced NLP resources and tools for the Arabic than English.
+
+
+# Data Processing Pipeline (in Python)
+
+1. Scrape data from online news portals, using *xpath* and *scrapy*.
+2. 
+
+
 
 # Bibliography
 
@@ -25,3 +33,4 @@ less advanced NLP resources and tools for the Arabic than English.
 
 3. Isuru Jayaweera, Chamath Sajeewa, Sampath Liyanage, Tharindu Wijewardane, Indika Perera, "Crime Analytics: Analysis of Crimes Through Newspaper Articles", Moratuwa Engineering Research Conference (MERCon), 2015.
 
+4. Dimitrios Skoutas (editor), "Crime data collection, contextualization and mining", Deliverable D3.4, City.Risks Consortium, 2016.
