@@ -18,7 +18,7 @@ It is worth mentioning that working with Arabic language ,  adds an extra level 
 less advanced NLP resources and tools for the Arabic than English.
 
 
-# Data Processing Pipeline (in Python)
+# Data Mining Pipeline (in Python)
 
 1. **Data collection**: scrape news articles from online news portals, using *xpath* and *scrapy*. For each article, we extract its textual content and metadata (currently title and date) from the raw html file.
 
@@ -27,6 +27,8 @@ less advanced NLP resources and tools for the Arabic than English.
 3. **Crime classification**: determine whether the article is related to crime or not and classify the type (category) of crime.
 
 4. **Information extraction**: extract key facts about the crime, namely the location of the crime (possibly at different granularities such as street, neighborhood, city), and the weapon of the crime if applicable.
+
+5. **Information visualization**: build interactive dashboard-like tool that allows the user to browse and visualize information in various ways ...
 
 
 # Bibliography
