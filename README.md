@@ -22,7 +22,7 @@ less advanced NLP resources and tools for the Arabic than English.
 
 1. **Data collection**: scrape news articles from online news portals, using *xpath* and *scrapy*. For each article, we extract its textual content and metadata (currently title and date) from the raw html file.
 
-2. **Exploratory data analysis**: get an overview of the downloaded articles.
+2. **Exploratory data analysis**: get an overview of the content of the downloaded articles, using unsupervised learning techniques (clustering, topic modeling, keyphrase extraction, ...)
 
 3. **Crime classification**: determine whether the article is related to crime or not and classify the type (category) of crime.
 
