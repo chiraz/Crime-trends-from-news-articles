@@ -7,7 +7,7 @@ This project aims to visualize, map, and analyze crime trends in Tunisia based *
 The data for this project consists of news articles automatically scraped from about popular Tunisian news websites and portals from the past few years. A sample of around 8000 such articles scraped from the society pages of 2 popular daily newspapers, "Assarih" (http://assarih.com/) and "Essada" (https://essada.net/), are available in the data folder.
 
 
-# Methodology
+# General Methodology
 
 At a high level, the main tasks of this project are to extract geographical patterns of crime (distribution of crime by location; 
 identifying crime hot spots at the city and national levels), and temporal trends (how crime evolves over time; identifying seasonal 
@@ -18,9 +18,9 @@ It is worth mentioning that working with Arabic language ,  adds an extra level 
 less advanced NLP resources and tools for the Arabic than English.
 
 
-# Data Mining Pipeline (in Python)
+# Data Mining Pipeline
 
-1. **Data collection**: scrape news articles from online news portals, using *xpath* and *scrapy*. For each article, we extract its textual content and metadata (currently title and date) from the raw html file.
+1. **Data collection**: scrape news articles from online news portals. For each article, we extract its textual content and metadata (currently title and date) from the raw html file.
 
 2. **Exploratory data analysis**: get an overview of the content of the downloaded articles, using unsupervised learning techniques (clustering, topic modeling, keyphrase extraction, ...)
 
@@ -29,6 +29,10 @@ less advanced NLP resources and tools for the Arabic than English.
 4. **Information extraction**: extract key facts about the crime, namely the location of the crime (possibly at different granularities such as street, neighborhood, city), and the weapon of the crime if applicable.
 
 5. **Information visualization**: build interactive dashboard-like tool that allows the user to browse and visualize crime information in various ways ...
+
+##  Python Implementation Details
+
+-  *xpath* and *scrapy* are used to scrape data from web pages.
 
 
 # Bibliography
